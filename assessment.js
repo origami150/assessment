@@ -13,6 +13,8 @@ assessmentButton.addEventListener(
     if (userName.length === 0) {
       return;
     }
+    // 診断結果エリアの作成
+    resultDivision.innerText = '';
     
     // headerDivisionの作成
     const headerDivision = document.createElement('div');
